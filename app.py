@@ -21,5 +21,7 @@ input = np.array([[n,p,k,temp,hum,ph,rain]])
 
 output = model.predict(input)
 
+stn = output
+
 if st.button('Predict'):
-            st.markdown(output)
+            st.markdown(stn)
